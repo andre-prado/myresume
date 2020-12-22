@@ -12,5 +12,5 @@ SECRECT_KEY = env('SECRET_KEY')
 ALLOWED_HOSTS = env.list('ALLOWED_HOSTS')
 
 DABASES = {
-    'default': env.deb(),
+    'default': env.db(),
 }
